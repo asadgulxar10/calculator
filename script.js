@@ -100,5 +100,8 @@ function calculateTotal() {
 		case '-':
 			opSubstract();
 			break;
+		default:
+			//do something if none of operator found
+			break;
 	}
 }
